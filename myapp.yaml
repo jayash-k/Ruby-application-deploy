@@ -20,8 +20,8 @@ spec:
           ports:
             - containerPort: 3000
           env:
-            - name: DATABASE_URL
-              value: postgres://user:password@postgres-db:5432/db_name
+            - name: 
+              value: 
 ---
 apiVersion: v1
 kind: Service
